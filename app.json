@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.ReactNativeSupabase"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.ReactNativeSupabase"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Geologica-Bold.ttf",
+            "./assets/fonts/Geologica-Light.ttf",
+            "./assets/fonts/Geologica-Medium.ttf",
+            "./assets/fonts/Geologica-Regular.ttf",
+            "./assets/fonts/Geologica-SemiBold.ttf"
+          ]
         }
       ]
     ],
